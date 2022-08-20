@@ -1,0 +1,143 @@
+/* reset style */
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+	justify-content: space-between;
+}
+
+/* HEADER */
+nav {
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: space-between;
+	padding: 16px;
+	height: 50px;
+}
+
+nav .logo {
+	flex: 2;
+	max-height: 100%;
+}
+
+nav img {
+	max-height: 100%;
+}
+
+nav ul {
+	flex: 1;
+	line-height: 50px;
+	list-style-type: none;
+	display: flex;
+	justify-content: space-evenly;
+}
+
+nav ul a {
+	text-decoration: none;
+	color: black;
+}
+
+/* HERO */
+
+.hero {
+	flex: 2;
+	background-image: url('/img/hero.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.hero div {
+	height: 500px;
+}
+
+/* EVENTS */
+.events-wrapper {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	padding: 16px;
+}
+
+.events-wrapper h2 {
+	text-align: center;
+}
+.events {
+	display: flex;
+	padding: 32px;
+	column-gap: 16px;
+	justify-content: center;
+}
+
+.events div {
+	display: flex;
+	flex-direction: column;
+	width: 300px;
+}
+
+/* ABOUT */
+.about {
+	display: flex;
+	justify-content: center;
+	padding: 64px;
+	column-gap: 32px;
+}
+
+.about .img {
+	width: 1000px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-image: url('/img/logo-albarakah.png');
+}
+
+.about div {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	row-gap: 16px;
+}
+
+/* CONTACTS */
+.contact-form {
+	display: flex;
+	flex-direction: column;
+	padding: 64px;
+	row-gap: 16px;
+}
+
+.contact-form form {
+	flex: 1;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	row-gap: 8px;
+}
+
+.contact-form textarea {
+	resize: none;
+}
+
+.contact-form input[type="submit"] {
+	background-color: #7bae91;
+	color: white;
+	border: none;
+	padding: 16px;
+	font-size: 16px;
+	cursor: pointer;
+}
+
+/* FOOTER */
+footer {
+	padding: 16px;
+	background: #7bae91;
+	color: white;
+	display: flex;
+	justify-content: center;
+}
