@@ -47,7 +47,7 @@ nav ul a {
 
 .hero {
 	flex: 2;
-	background-image: url('/img/hero.jpg');
+	background-image: url("/img/hero.jpg");
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -82,6 +82,10 @@ nav ul a {
 	width: 300px;
 }
 
+.events img {
+	border-radius: 20px;
+}
+
 /* ABOUT */
 .about {
 	display: flex;
@@ -94,7 +98,7 @@ nav ul a {
 	width: 1000px;
 	background-repeat: no-repeat;
 	background-position: center;
-	background-image: url('/img/logo-albarakah.png');
+	background-image: url("/img/logo-albarakah.png");
 }
 
 .about div {
@@ -121,7 +125,12 @@ nav ul a {
 }
 
 .contact-form textarea {
+	padding: 8px;
 	resize: none;
+}
+
+.contact-form input {
+	padding: 8px;
 }
 
 .contact-form input[type="submit"] {
@@ -129,6 +138,7 @@ nav ul a {
 	color: white;
 	border: none;
 	padding: 16px;
+	border-radius: 10px;
 	font-size: 16px;
 	cursor: pointer;
 }
