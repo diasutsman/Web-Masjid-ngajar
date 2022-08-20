@@ -115,6 +115,49 @@ nav ul a {
 	row-gap: 16px;
 }
 
+/* JADWAL KAJIAN */
+.kajian {
+	display: flex;
+	flex: 2;
+	justify-content: center;
+	row-gap: 16px;
+	align-items: center;
+	flex-direction: column;
+	padding: 64px;
+	column-gap: 32px;
+}
+
+.kajian table,
+.kajian th,
+.kajian td {
+	padding: 16px;
+	/*border-spacing: 32px;*/
+}
+
+.kajian table {
+	width: 90%;
+}
+
+.kajian th {
+	background-color: #7bae91;
+	color: white;
+}
+
+.kajian tr:nth-child(odd) {
+	background-color: #f8de3f;
+}
+
+.kajian tr:nth-child(even) td:nth-child(2),
+.kajian tr:nth-child(even) td:nth-child(3),
+.kajian tr:nth-child(odd) td:nth-child(3),
+.kajian tr:nth-child(odd) td:nth-child(4) {
+	font-weight: bold;
+}
+
+.kajian tr:nth-child(even) {
+	background-color: #fffad4;
+}
+
 /* CONTACTS */
 .contact-form {
 	display: flex;
